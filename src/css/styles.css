@@ -10,17 +10,17 @@ html, body {
 
 @font-face {
     font-family: "Bebas Neue Book";
-    src: url("assets/fonts/BebasNeue Book.ttf");
+    src: url("../../assets/fonts/BebasNeueBook.ttf");
 }
 
 @font-face {
     font-family: "MADE TheArtist Script";
-    src: url("assets/fonts/MADE TheArtist Script PERSONAL USE.otf");
+    src: url("../../assets/fonts/MADETheArtistScriptPERSONALUSE.otf");
 }
 
 @font-face {
     font-family: "Eurofurence";
-    src: url("assets/fonts/eurofurence light.ttf");
+    src: url("../../assets/fonts/eurofurenceLight.ttf");
 }
 
 body {
@@ -35,7 +35,7 @@ body {
 }
 
 .background {
-    background-image: url("assets/images/block1_bg.png");
+    background-image: url("../../assets/images/block1_bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -370,7 +370,7 @@ a.hide-text-link {
 
 .block-3_info {
     padding: 205px 80px 185px 80px;
-    background-image: url("assets/images/slice.png");
+    background-image: url("../../assets/images/slice.png");
     background-repeat: no-repeat;
     background-position: 630px 260px;
     display: flex;
@@ -507,7 +507,7 @@ a.hide-text-link {
 }
 
 .block-6 {
-    background-image: url("assets/images/block6-leaf.png");
+    background-image: url("../../assets/images/block6-leaf.png");
     background-repeat: no-repeat;
     background-position: top 15px right 0;
 
@@ -645,7 +645,7 @@ a.hide-text-link {
     margin: 0 auto;
     background-color: #bec1b9;
     padding: 45px 30px 40px 30px;
-    background-image: url("/assets/images/popup-peach.png");
+    background-image: url("../../assets/images/popup-peach.png");
     background-repeat: no-repeat;
     background-position: top -40px right -115px;
 }
@@ -660,7 +660,7 @@ a.hide-text-link {
     margin: 0 auto;
     background-color: #bec1b9;
     padding: 45px 30px 40px 30px;
-    background-image: url("assets/images/popup-peach.png");
+    background-image: url("../../assets/images/popup-peach.png");
     background-repeat: no-repeat;
     background-position: top -40px right -115px;
     z-index: 12;
@@ -716,7 +716,7 @@ a.hide-text-link {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-image: url("assets/images/down-arrow.png");
+    background-image: url("../../assets/images/down-arrow.png");
     background-repeat: no-repeat;
     background-position: center right 16px;
     cursor: pointer;
@@ -794,7 +794,7 @@ a.hide-text-link {
     max-width: 783px;
     margin: 0 auto;
     background-color: #f6f6f6;
-    background-image: url("assets/images/thanks-tea.png");
+    background-image: url("../../assets/images/thanks-tea.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 40px;
