@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tea shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="src/css/slick-theme.css"/>
+    <link rel="stylesheet" href="src/css/hover.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="background">
+    <div class="block-1 container">
+        <header class="header">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Logo">
+            </div>
+            <div class="header-burger" id="burger">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="40px" height="22px">
+                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)"
+                          d="M0.0,0.0 L39.999,0.0 L39.999,1.999 L0.0,1.999 L0.0,0.0 Z"/>
+                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)"
+                          d="M0.0,10.0 L39.999,10.0 L39.999,12.0 L0.0,12.0 L0.0,10.0 Z"/>
+                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)"
+                          d="M0.0,19.999 L39.999,19.999 L39.999,21.999 L0.0,21.999 L0.0,19.999 Z"/>
+                </svg>
+            </div>
+            <div class="navigation" id="navigation">
+                <div class="menu__close">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                         viewBox="0,0,256,256"
+                         width="50px" height="50px" fill-rule="nonzero">
+                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                           stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                           font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                           style="mix-blend-mode: normal">
+                            <g transform="scale(5.12,5.12)">
+                                <path d="M9.15625,6.3125l-2.84375,2.84375l15.84375,15.84375l-15.9375,15.96875l2.8125,2.8125l15.96875,-15.9375l15.9375,15.9375l2.84375,-2.84375l-15.9375,-15.9375l15.84375,-15.84375l-2.84375,-2.84375l-15.84375,15.84375z"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <ul>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#shop" class="nav-link">Наш ассортимент</a></li>
+                    <li><a href="#order" class="nav-link">Оформить заказ</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+            <a href="#" class="btn main-button hvr-wobble-vertical" id="connectButton">Связаться с нами</a>
+        </header>
+        <div class="block-1_title wow animate__fadeIn">
+            <div class="big">Эксклюзивный листовой чай</div>
+            <div class="small">с разных уголков планеты</div>
+        </div>
+        <div class="block-1 information wow animate__fadeIn">
+            <div class="left-info-wrap">
+                <div class="left-info">
+                    <p>У нас вы сможете найти чай
+                        со всего мира, самых
+                        невообразимых вкусов
+                        и ароматов</p>
+                </div>
+            </div>
+            <div class="right-info-wrap">
+                <div class="right-info">
+                    <p class="text-block">
+                        Чайные листочки мы собираем столько раз в году, сколько раз чай вегетирует – то есть, дает новые
+                        побеги
+                        с листочками. В Индонезии, Шри-Ланке, Кении, на юге Индии и Китая, где всегда лето – круглый
+                        год.
+                        Чем
+                        дальше на север расположены плантации, тем меньше сезон сбора чая – в северо-восточной Индии он
+                        продолжается восемь месяцев, на севере Китая чайные листья собирают не более четырех раз в году,
+                        с
+                        апреля по сентябрь
+                    </p>
+                    <p class="more-text">
+                        Мы собираем чай вручную, обрывая не все листья, а лишь несколько самых молодых и сочных
+                        листочков с
+                        частью стебелька, на котором они укреплены, и так называемую почку (или типс) – нераспустившийся
+                        листок
+                        на кончике побега. Всё для того, чтобы вы пили только самый вкусный и свежий чай!
+                    </p>
+                    <a href="#" class="read-more-link">Узнать больше</a>
+                    <a href="#shop" class="btn main-button hvr-back-pulse">Посмотреть ассортимент</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block-2 container" id="about">
+    <div class="orange"><img src="assets/images/orange.png" alt="orange"></div>
+    <div class="leaf"><img src="assets/images/leaf.png" alt="leaf"></div>
+    <div class="block-2_title">
+        <div class="big">6 качеств нашего чая</div>
+        <div class="small">которые вы оцените</div>
+    </div>
+    <div class="advantage_cards wow animate__fadeIn">
+        <div class="advantage_card card-1">
+            <div class="advantage_image"><img src="assets/images/pills.png" alt="pill"></div>
+            <div class="advantage_text">Подавляет рост злокачественных опухолей, и существенно снижает риск перерождения
+                клеток в раковые
+            </div>
+        </div>
+        <div class="advantage_card card-2">
+            <div class="advantage_image"><img src="assets/images/heart.png" alt="heart"></div>
+            <div class="advantage_text">Нормализует деятельность сердца, кровеносных сосудов, пищеварительной системы
+            </div>
+        </div>
+        <div class="advantage_card card-3">
+            <div class="advantage_image"><img src="assets/images/tooth.png" alt="tooth"></div>
+            <div class="advantage_text">Эффективно предотвращает
+                кариес
+            </div>
+        </div>
+        <div class="advantage_card card-4">
+            <div class="advantage_image"><img src="assets/images/honey.png" alt="honey"></div>
+            <div class="advantage_text">Богат полезными
+                микроэлементами
+            </div>
+        </div>
+        <div class="advantage_card card-5">
+            <div class="advantage_image"><img src="assets/images/brain.png" alt="brain"></div>
+            <div class="advantage_text">Бодрит дух, повышает активность мозга, улучшает память</div>
+        </div>
+        <div class="advantage_card card-6">
+            <div class="advantage_image"><img src="assets/images/lightning.png" alt="lightning"></div>
+            <div class="advantage_text">Снимает усталость и стимулирует
+                обмен веществ
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="block-3 container" id="shop">
+    <div class="title_big">
+        Наш ассортимент
+    </div>
+    <div class="responsive wow animate__fadeIn">
+        <div>
+            <div class="shop-card">
+                <div class="shop-card-left">
+                    <div class="card-title">Сладкий апельсин</div>
+                    <div class="card-weight">
+                        <div class="weight-button">-</div>
+                        <div class="weight">100 г</div>
+                        <div class="weight-button">+</div>
+                    </div>
+                    <div class="card-price">4,50 руб.</div>
+                    <div class="shop-button btn hvr-back-pulse">Заказать</div>
+                </div>
+                <div class="shop-card-right">
+                    <div class="main-image-card"><img src="assets/images/bagcard.png" alt="pack"></div>
+                    <div class="round-image-card"><img src="assets/images/orangecard.png" alt="orange"></div>
+                    <div class="tea-image-card"><img src="assets/images/teacard1.png" alt="tea"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="shop-card">
+                <div class="shop-card-left">
+                    <div class="card-title">Чай с облепихой и грушей</div>
+                    <div class="card-weight">
+                        <div class="weight-button">-</div>
+                        <div class="weight">100 г</div>
+                        <div class="weight-button">+</div>
+                    </div>
+                    <div class="card-price">5,10 руб.</div>
+                    <div class="shop-button btn hvr-back-pulse">Заказать</div>
+                </div>
+                <div class="shop-card-right">
+                    <div class="main-image-card"><img src="assets/images/bagcard.png" alt="pack"></div>
+                    <div class="round-image-card"><img src="assets/images/pearcard.png" alt="pear"></div>
+                    <div class="tea-image-card"><img src="assets/images/teacard2.png" alt="tea"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="shop-card">
+                <div class="shop-card-left">
+                    <div class="card-title">Сочная клубника</div>
+                    <div class="card-weight">
+                        <div class="weight-button">-</div>
+                        <div class="weight">100 г</div>
+                        <div class="weight-button">+</div>
+                    </div>
+                    <div class="card-price">5,50 руб.</div>
+                    <div class="shop-button btn hvr-back-pulse">Заказать</div>
+                </div>
+                <div class="shop-card-right">
+                    <div class="main-image-card"><img src="assets/images/bagcard.png" alt="pack"></div>
+                    <div class="round-image-card"><img src="assets/images/strawberrycard.png" alt="orange"></div>
+                    <div class="tea-image-card"><img src="assets/images/teacard1.png" alt="tea"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="shop-card">
+                <div class="shop-card-left">
+                    <div class="card-title">Ароматная липа</div>
+                    <div class="card-weight">
+                        <div class="weight-button">-</div>
+                        <div class="weight">100 г</div>
+                        <div class="weight-button">+</div>
+                    </div>
+                    <div class="card-price">4,80 руб.</div>
+                    <div class="shop-button btn hvr-back-pulse">Заказать</div>
+                </div>
+                <div class="shop-card-right">
+                    <div class="main-image-card"><img src="assets/images/bagcard.png" alt="pack"></div>
+                    <div class="round-image-card"><img src="assets/images/lipacard.png" alt="orange"></div>
+                    <div class="tea-image-card"><img src="assets/images/teacard2.png" alt="tea"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="shop-card">
+                <div class="shop-card-left">
+                    <div class="card-title">Соблазнительная дыня</div>
+                    <div class="card-weight">
+                        <div class="weight-button">-</div>
+                        <div class="weight">100 г</div>
+                        <div class="weight-button">+</div>
+                    </div>
+                    <div class="card-price">4,50 руб.</div>
+                    <div class="shop-button btn hvr-back-pulse">Заказать</div>
+                </div>
+                <div class="shop-card-right">
+                    <div class="main-image-card"><img src="assets/images/bagcard.png" alt="pack"></div>
+                    <div class="round-image-card"><img src="assets/images/meloncard.png" alt="orange"></div>
+                    <div class="tea-image-card"><img src="assets/images/teacard1.png" alt="tea"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="shop-card">
+                <div class="shop-card-left">
+                    <div class="card-title">Королевский бергамот</div>
+                    <div class="card-weight">
+                        <div class="weight-button">-</div>
+                        <div class="weight">100 г</div>
+                        <div class="weight-button">+</div>
+                    </div>
+                    <div class="card-price">7,50 руб.</div>
+                    <div class="shop-button btn hvr-back-pulse">Заказать</div>
+                </div>
+                <div class="shop-card-right">
+                    <div class="main-image-card"><img src="assets/images/bagcard.png" alt="pack"></div>
+                    <div class="round-image-card"><img src="assets/images/bergcard.png" alt="orange"></div>
+                    <div class="tea-image-card"><img src="assets/images/teacard2.png" alt="tea"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block-3_info wow animate__fadeIn" id="order">
+        <div class="block-3_image">
+            <img src="assets/images/cup.png" alt="cup">
+        </div>
+        <div class="info-action">
+            <div class="info-title"> Выберите чай и получите скидку 5%
+                на ваш первый заказ
+            </div>
+            <div class="shop-button btn hvr-wobble-vertical"> Оформить заказ</div>
+        </div>
+    </div>
+</div>
+<div class="block-4_title wow animate__fadeIn">
+    <div class="big">У нас вы найдете</div>
+    <div class="small">все необходимое</div>
+</div>
+<div class="block-4 wow animate__fadeIn">
+    <div class="container">
+        <div class="block-4_image">
+            <img src="assets/images/tea-round.png" alt=tea">
+        </div>
+        <div class="info-cards">
+            <div class="info-card-1">
+                <div class="info-card-title">Качественный и свежий чай</div>
+                <div class="info-card-text">Мы завариваем и дегустируем чай снова и снова, пока не найдем идеальный
+                    вкус, поэтому в нашем каталоге собраны только лучшие сорта с самых известных плантаций мира
+                </div>
+            </div>
+            <div class="info-card-2">
+                <div class="info-card-title">Эксклюзивные чайные миксы</div>
+                <div class="info-card-text">Попробуйте наши миксы, созданные на основе кулинарных тенденций, миксологии
+                    и вдохновения
+                </div>
+            </div>
+            <div class="info-card-3">
+                <div class="info-card-title">Чайные аксессуары</div>
+                <div class="info-card-text">У нас вы найдете всю необходимую посуду для правильного хранения,
+                    заваривания и подачи чая
+                </div>
+            </div>
+            <div class="info-card-4">
+                <div class="info-card-title">Подарочные наборы</div>
+                <div class="info-card-text">Мы соберем в красивую упаковку именной подарочный набор для ваших близких,
+                    чтобы они могли по достоинству оценить вашу заботу и все вкусовые качества нашего чая
+                </div>
+            </div>
+        </div>
+        <div class="block-4_image-2"><img src="assets/images/lemonfruit.png" alt="lemon"></div>
+    </div>
+</div>
+<div class="block-5 container wow animate__fadeIn">
+    <div class="title_big">
+        За нас все скажут
+        наши клиенты
+    </div>
+    <div class="single-item">
+        <div class="comment-card">
+            <div class="comment-card-wrap">
+                <div class="comment-image"><img src="assets/images/girl.png" width="384" height="396" alt="girl"></div>
+                <div class="comment-right">
+                    <div class="comment-name">Анастасия</div>
+                    <div class="comment-text"><p>В сегодняшнем отзыве хочу поделиться своими впечатлениями от чёрного
+                        цейлонского чая IMPRA (мелколистовой 400 г).</p>
+                        <p>В этом году я ездила в свой родной город и купила там большую упаковку этого чая. Никогда не
+                            думала,
+                            что буду писать на него отзыв, для меня это не просто чай, это частичка детства,
+                            воспоминаний,
+                            кухня
+                            бабушки, чаинки в чае, которые я в детстве не любила, ассоциации с чем-то родным.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment-card">
+            <div class="comment-card-wrap">
+                <div class="comment-image"><img src="assets/images/boy.jpg" width="384" height="396" alt="boy"></div>
+                <div class="comment-right">
+                    <div class="comment-name">Кирилл</div>
+                    <div class="comment-text"><p>Прекрасный чай, чтобы поддержать себя во время загруженного дня.</p>
+                        <p>Купил в этом магазине чайный набор, ассорти из нескольких сортов чая по 100г. Никогда не
+                            думал,
+                            что мне настолько понравится, вкусно, ароматно, разнообразно. В чае нет никаких лишних
+                            примесей,
+                            листочек к листочку. Еще и замечательно бодрит в течении рабочего дня</p>
+                        <p>Также очень хочу отметить быструю и организованную доставку. Всё привезли в день заказа.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment-card">
+            <div class="comment-card-wrap">
+                <div class="comment-image"><img src="assets/images/blondes.jpg" width="384" height="396" alt="girl">
+                </div>
+                <div class="comment-right">
+                    <div class="comment-name">Света</div>
+                    <div class="comment-text"><p>Обожаю брать с собой термокружку с любимым чаем из Tea Lovers</p>
+                        <p>Благодаря разнообразию выбора, могу хоть каждый день брать с собой любимый чай, на учебу, в
+                            библиотеку, на прогулку, для каждого случая найдется специальный вкус, чтобы украсить любое
+                            событие чашечкой ароматного чая! А еще в магазине замечательные консультанты, которые всегда
+                            подскажут, что лучше выбрать.</p>
+                        <p>Очень рада, что нашла ваш магазин и с удовольствием порекомендую его знакомым!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block-6 container wow animate__fadeIn" id="contacts">
+    <div class="block-6_wrapper">
+        <div class="block-6_image"><img src="assets/images/block6-tea.png" alt="tea"></div>
+        <div class="block-6_right">
+            <div class="title_big">Контактная информация</div>
+            <div class="block-6_title">
+                Пункты самовывоза:
+            </div>
+            <div class="block-6_place">
+                <img src="assets/images/point.png" alt="point">
+                <div class="place">г. Минск, ул. Озерная, 5</div>
+            </div>
+            <div class="block-6_place">
+                <img src="assets/images/point.png" alt="point">
+                <div class="place">г. Минск, ТЦ «Метрополь», 2 этаж</div>
+            </div>
+            <div class="block-6_place">
+                <img src="assets/images/point.png" alt="point">
+                <div class="place">г. Минск, пр-т Некрасова, 25</div>
+            </div>
+            <div class="place_info"><p>Пн-Пт с 10:00 до 20:00</p>
+                <p>Сб-Вс с 10:00 до 18:00</p>
+            </div>
+            <div class="block-6_title">
+                Телефоны:
+            </div>
+            <div class="place"><p><a href="tel:+375 (29) 384-66-76">+375 (29) 384-66-76</a></p>
+                <p><a href="tel:+375 (44) 584-76-86">+375 (44) 584-76-86</a></p></div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-wrap">
+            <div class="logo"><img src="assets/images/logo.png" alt="Logo"></div>
+            <div class="footer-actions">
+                <div class="footer-actions_title">
+                    Соц. сети:
+                </div>
+                <div class="footer-socials">
+                    <a href="#"><img src="assets/images/instagram-white.png" alt="instagram"></a>
+                    <a href="#"><img src="assets/images/vk-white.png" alt="vkontakte"></a>
+                    <a href="#"><img src="assets/images/youtube-white.png" alt="youtube"></a>
+                </div>
+            </div>
+            <a href="#" class="footer-button btn hvr-wobble-vertical" id="connectFooter"> Связаться с нами</a>
+            <div class="phone-button"><a href="#"><img src="assets/images/call.png" alt="call"></a></div>
+            <div class="rights">Все права защищены, 2020</div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="popup-order" id="popupOrder">
+    <div class="close" id="closeShop"><img src="assets/images/close.png" alt="close"></div>
+    <div class="popup-title">
+        Закажите чай
+    </div>
+    <div class="promo"><img src="assets/images/promo.png"></div>
+    <form class="select-list">
+        <div class="popup-info">Выберите понравившийся чай, заполните форму и ожидайте нашего звонка</div>
+        <select class="popup-select" id="select">
+            <option value="orange">Сладкий апельсин</option>
+            <option value="strawberry">Сочная клубника</option>
+            <option value="berghamot">Королевский бергамот</option>
+            <option value="lipa">Ароматная липа</option>
+            <option value="melon">Соблазнительная дыня</option>
+            <option value="pear">Чай с облепихой и грушей</option>
+        </select>
+        <input class="popup-input" type="text" placeholder="Ваше имя" id="userName">
+        <div class="error-input">Заполните это поле!</div>
+        <input class="popup-input" type="text" placeholder="+375(__)___-__-__" id="userPhone">
+        <div class="error-input">Заполните это поле!</div>
+        <button type="submit" class="popup-button btn hvr-wobble-vertical" id="orderSubmit">Оформить заказ</button>
+    </form>
+</div>
+
+<div class="popup-connect" id="popupConnect">
+    <div class="close" id="closeContact"><img src="assets/images/close.png" alt="close"></div>
+    <div class="popup-title">
+        Связаться с нами
+    </div>
+    <div class="promo"><img src="assets/images/promo.png"></div>
+    <div class="select-list">
+        <div class="popup-info">Заполните форму и ожидайте нашего звонка. Наш оператор свяжется с вами в течение 15
+            минут для
+            уточнения заказа.
+        </div>
+        <form id="contactForm">
+            <input class="popup-input" type="text" placeholder="Ваше имя" id="nameInput">
+            <div class="error-input">Заполните это поле!</div>
+            <input class="popup-input" type="text" placeholder="+375(__)___-__-__" id="phoneInput">
+            <div class="error-input">Заполните это поле!</div>
+            <button type="submit" class="popup-button btn hvr-wobble-vertical" id="submitButton">Отправить</button>
+        </form>
+    </div>
+</div>
+
+<div class="popup-thanks" id="popupThanks">
+    <div class="close" id="closeThanks"><img src="assets/images/close.png" alt="close"></div>
+    <div class="thanks-title">Спасибо, <span>что выбрали нас!</span></div>
+    <div class="thanks-info">
+        Наш оператор свяжется с вами в течение 15 минут для
+        подтверждения заказа и уточнения удобного для вас
+        времени доставки
+    </div>
+    <div class="thanks-link">
+        <a href="#shop">Вернуться к выбору чая</a>
+    </div>
+    <div class="thanks-actions">
+        Подписывайтесь на нас в соц. сетях:
+        <div class="social">
+            <a href="#"><img src="assets/images/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="assets/images/vkontakte.png" alt="vkontakte"></a>
+            <a href="#"><img src="assets/images/youtube.png" alt="youtube"></a>
+        </div>
+    </div>
+</div>
+<script src="src/scripts/jquery-3.6.4.min.js"></script>
+<script src="src/scripts/slick.min.js"></script>
+<script src="src/scripts/script.js"></script>
+<script src="src/scripts/wow.min.js"></script>
+</body>
+</html>
